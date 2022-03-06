@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!-- made by Choon Wei Tong -->
+<html lang="en-US">
+<head>
+  <title>Product | Star in a Bottle</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="starbottlestylesheet.css" />
+  <link href="https://fonts.googleapis.com/css?family=Unica+One|Oswald|M+PLUS+1p|Titillium+Web|Fjalla+One|Prompt|Josefin+Slab|Ubuntu+Condensed" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="headerlogo">
+    <a href="main.html" class="logo">The Humble e-Shop</a>
+  </div>
+
+  <div class="header">
+  <div class="header-right">
+
+    <a href="#cart">Cart</a>
+
+    <button onclick="document.getElementById('login').style.display='block'" style="width:auto;">Log-In</button>
+    <div id='login' class="modal">
+      <form class="modal-content">
+        <div class="logincontainer">
+
+          <label><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Login</button>
+
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+
+          <span class="signin">No account?<a href="newacc.html">Sign-Up</a></span>
+
+        </div>
+
+        <div class="logincontainer" style="background-color:white">
+          <button type="button" onclick="document.getElementById('login').style.display='none'" class="closebox">close</button>
+          <span class="forgot"><a href="#forgotpassword">Forgot password?</a></span>
+        </div>
+
+      </form>
+    </div>
+
+    <a href="#checkout">Checkout</a>
+    <a href="newacc.html">Sign-Up</a>
+
+    </div>
+    </div>
+
+    <div class="bar">
+    <div class="navbar">
+      <a href="main.html">About</a>
+      <div class="dropdown">
+        <button class="dropbtn">Products</button>
+        <div class="dropdowncontent">
+          <a href="#">Stars in a Bottle</a>
+          <a href="companioncube.html">Companion Cube </a>
+        </div>
+      </div>
+      <a href="FAQ.html">FAQ</a>
+    </div>
+    </div>
+
+      <div class="title">
+        <h1> Featured Item </h1>
+        </div>
+
+    <div class="container">
+      <div class="contentwrap">
+        <div class="left-column">
+          <img src="products\starbottle.jpg" alt="bottleostars">
+        </div>
+
+        <div class="right-column">
+
+          <div class="product-description">
+            <span>Product of the Month of April 2019.</span>
+            <h1>Stars in a Bottle.</h1>
+            <p>Paper stars in a glass cork bottle. A cute indoor decoration which subtly brightens the mood of an area. Buy it as a gift or for yourself. It truly is an ideal gift for any of your family, friends, loved ones; or you can just purchase it for yourself! </p>
+          </div>
+
+          <div class="bottle-size">
+            <span>Size of Bottle</span>
+
+            <div class="sizes">
+              <button id="s" class ="active">Small</button>
+              <button id="m">Medium</button>
+              <button id="l">Large</button>
+              <h2>Dimensions</h2>
+              <ul>
+                <li>Small: 3" &#xd7; 3" &#xd7; 5"</li>
+                <li>Medium: 3" &#xd7; 4" &#xd7; 6"</li>
+                <li>Large: 4" &#xd7; 4" &#xd7;  7"</li>
+              </ul>
+
+        </div>
+
+        <a href="#instructions">Instructions to make paper stars are included when purchased!</a>
+      </div>
+
+
+    <!-- Product Pricing -->
+      <div class="product-price">
+        <span id="price">€25</span>
+        <a href="#" class="add-btn">Add to cart</a>
+      </div>
+      </div>
+
+      <div class="endnote">
+        <div class="enddetails">
+          <span><h1>Delivery Fees are not included!</h1> Please refer to delivery options at checkout.</span>
+        </div>
+      </div>
+      </div>
+
+  <footer class="footer">
+    <div class="footercontacts">
+      <h1>Contact Us</h1>
+      <p><a href="#email">wei.choon@ucdconnect.ie</a></p>
+      <p>08-15656134</p>
+      <p><a href="#address">Nohoval vlge Kinsale<br>Kinsale County Cork <br> 16516XA99.</a></p>
+    </div>
+
+    <div class="findus">
+      <h1>Find Us On</h1>
+      <h3>These platforms</h3>
+      <a href="https://www.facebook.com/"><img src="icon\facebook.svg" alt="fbicon" class="icons"></a>
+      <a href="https://twitter.com/?lang=en"><img src="icon\twitter.svg" alt="twitticon" class="icons"></a>
+      <a href="https://www.instagram.com/?hl=en"><img src="icon\instagram.svg" alt="instaicon" class="icons"></a>
+      <a href="https://www.pinterest.ie/login/"><img src="icon\pinterest.svg" alt="pinticon" class="icons"></a>
+      <p>Follow Us to see what's new!</p>
+      </div>
+
+      <div class="newsletter">
+        <h1>Subscribe to our Newsletter!</h1>
+        <p>By subscribing to our newsletter, you will be able to keep up-to-date <br>with new products being sold on our website that you would not want to miss out!</p>
+
+      <div class="newscontainer">
+        <input type="text" placeholder="Name" name="name" required class="newsdesign">
+        <input type="text" placeholder="Email address" name="mail" required class="newsdesign">
+      </div>
+
+      <div class="newscontainer">
+        <input type="submit" value="Subscribe" style= "font-family: 'Oswald', sans-serif;">
+      </div>
+      </div>
+
+      <div class="footerend">
+      All Rights Reserved © 2019 | <a href="#priv">Privacy Policy</a> | <a href="#tos">Terms of Service</a>
+    </div>
+  </footer>
+
+    </div>
+
+        <script type="text/javascript" src="actionstarbottle.js"></script>
+  </body>
+</html>

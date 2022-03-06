@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- made by Choon Wei Tong -->
+<html lang="en-US">
+<head>
+  <title>The Humble e-Shop</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="mainstylesheet.css" />
+  <link href="https://fonts.googleapis.com/css?family=Unica+One|Oswald|M+PLUS+1p|Titillium+Web|Fjalla+One|Prompt|Josefin+Slab|Ubuntu+Condensed" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="headerlogo">
+    <a href="#" class="logo">The Humble e-Shop</a>
+  </div>
+
+  <div class="header">
+  <div class="header-right">
+
+    <a href="#cart">Cart</a>
+
+    <button onclick="document.getElementById('login').style.display='block'" style="width:auto;">Log-In</button>
+    <div id='login' class="modal">
+      <form class="modal-content">
+        <div class="logincontainer">
+
+          <label><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Login</button>
+
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+
+          <span class="signin">No account?<a href="newacc.html">Sign-Up</a></span>
+
+        </div>
+
+        <div class="logincontainer" style="background-color:white">
+          <button type="button" onclick="document.getElementById('login').style.display='none'" class="closebox">close</button>
+          <span class="forgot"><a href="#forgotpassword">Forgot password?</a></span>
+        </div>
+
+      </form>
+    </div>
+
+    <a href="#checkout">Checkout</a>
+    <a href="newacc.html">Sign-Up</a>
+
+    </div>
+    </div>
+
+    <div class="bar">
+    <div class="navbar">
+      <a href="main.html" class="active">About</a>
+      <div class="dropdown">
+        <button class="dropbtn">Products</button>
+        <div class="dropdowncontent">
+          <a href="starbottle.html">Stars in a Bottle</a>
+          <a href="companioncube.html">Companion Cube </a>
+        </div>
+      </div>
+      <a href="FAQ.html">FAQ</a>
+    </div>
+    </div>
+
+    <div class="page-container">
+      <div class="content">
+        <h1>Welcome to The Humble e-Shop!</h1>
+        <h2 class="intro">This is a promotional website for handcrafted goods made by Jerald Choon. Products that can be found on this website are all limited and unique; hence, do not think twice if you are interested in a product as these handcrafted goods get sold out fast!</h2>
+        <h3> Product of the Month.</h3>
+          <div class="prodmth">
+            <a href="starbottle.html"><img src="products\starbottle.jpg" alt="starcontainer" class="starbottle"></a>
+            <div class="proddetails">
+            <h1>Stars in a Bottle.</h1>
+            <h2>For the month of April, we present to you a simplistic home decoration!<br><br><br> Paper stars are perfectly folded and placed into a glass cork bottle. Perfect for indoor table-top decorations to brighten up the space. <br> If you are wondering how the stars are made, purchasing this entitles you with in-depth instructions on how these small origami pieces were made. <br><br><br><br> << Click on the image if you wish to purchase it!</h2>
+            </div>
+          </div>
+
+          <div class="prodlast">
+            <a href="companioncube.html"><img src="products\companioncube.jpg" alt="cube" class="portalcube"></a>
+            <div class="lastmthprod">
+              <h1>Last Month's Product.</h1>
+              <div class="proddetails2">
+              <h1>The Companion Cube</h1>
+              <h2>Companion Cube Box inspired by the game 'Portal 2' by Valve Corporation. This is a very handy and decorative storage box which can be left anywhere. A strong and sturdy wood box with a waterproof acrylic paint finish.</h2>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="endnote">
+          <div class="enddetails">
+            <span>Do check the <a href="#FAQ">Frequently Asked Questions</a> tab to find out more about us!</span>
+          </div>
+        </div>
+      </div>
+
+
+
+    <footer class="footer">
+      <div class="footercontacts">
+        <h1>Contact Us</h1>
+        <p><a href="#email">wei.choon@ucdconnect.ie</a></p>
+        <p>08-15656134</p>
+        <p><a href="#address">Nohoval vlge Kinsale<br>Kinsale County Cork <br> 16516XA99.</a></p>
+      </div>
+
+      <div class="findus">
+        <h1>Find Us On</h1>
+        <h3>These platforms</h3>
+        <a href="https://www.facebook.com/"><img src="icon\facebook.svg" alt="fbicon" class="icons"></a>
+        <a href="https://twitter.com/?lang=en"><img src="icon\twitter.svg" alt="twitticon" class="icons"></a>
+        <a href="https://www.instagram.com/?hl=en"><img src="icon\instagram.svg" alt="instaicon" class="icons"></a>
+        <a href="https://www.pinterest.ie/login/"><img src="icon\pinterest.svg" alt="pinticon" class="icons"></a>
+        <p>Follow Us to see what's new!</p>
+        </div>
+
+        <div class="newsletter">
+          <h1>Subscribe to our Newsletter!</h1>
+          <p>By subscribing to our newsletter, you will be able to keep up-to-date <br>with new products being sold on our website that you would not want to miss out!</p>
+
+        <div class="newscontainer">
+          <input type="text" placeholder="Name" name="name" required class="newsdesign">
+          <input type="text" placeholder="Email address" name="mail" required class="newsdesign">
+        </div>
+
+        <div class="newscontainer">
+          <input type="submit" value="Subscribe" style= "font-family: 'Oswald', sans-serif;">
+        </div>
+        </div>
+
+        <div class="footerend">
+        All Rights Reserved © 2019 | <a href="#priv">Privacy Policy</a> | <a href="#tos">Terms of Service</a>
+      </div>
+    </footer>
+  </div>
+
+
+  </body>
+</html>
